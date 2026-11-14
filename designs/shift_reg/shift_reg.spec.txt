@@ -1,0 +1,6 @@
+Cover the register being parallel loaded and cover it shifting. Cover load and
+shift_en asserted at the same time, confirming load takes priority. Cover both
+of them deasserted so the register holds. Cover shifting in a one and shifting
+in a zero. Cover the register holding all zeros and all ones. Cover a bit being
+shifted all the way from the input to serial_out, which takes eight shifts.
+Cover reset asserted while a shift is in progress.

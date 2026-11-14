@@ -1,0 +1,6 @@
+Cover every opcode the ALU supports, from 0 through 7. For each opcode, cover
+the operands at their minimum, maximum and mid-range values. Cover the carry
+output being set and clear, and cover the zero flag being set and clear. Cross
+the opcode against the zero flag so that every operation is seen producing both
+a zero and a non-zero result where that is possible. Cover addition overflowing
+into the carry, and subtraction borrowing.

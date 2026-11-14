@@ -1,0 +1,1 @@
+s1(23Aug2026:16:28:21):  irun -access +rwc -sv -timescale 1ns/1ps      -coverage all -covoverwrite -covtest test -covscope scope      -covdut counter -covdut counter_coverage      ../counter.v ../counter_if.sv ../counter_coverage.sv      ../tb_counter.sv ../top_counter.sv      -top top_counter 

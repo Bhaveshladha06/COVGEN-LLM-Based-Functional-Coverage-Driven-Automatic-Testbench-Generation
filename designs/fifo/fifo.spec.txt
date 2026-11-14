@@ -1,0 +1,8 @@
+Cover the FIFO becoming completely full and completely empty, and every
+occupancy level in between. Cover a simultaneous read and write while the FIFO
+is partially filled, so the occupancy stays unchanged. Cover a write attempted
+while the FIFO is full and a read attempted while it is empty, confirming both
+are rejected without corrupting the occupancy. Cover the cross of the write
+enable against the read enable, and the cross of each enable against the full
+and empty flags. Cover the data input at its minimum, maximum and mid-range
+values, and cover the reset asserted while the FIFO holds data.

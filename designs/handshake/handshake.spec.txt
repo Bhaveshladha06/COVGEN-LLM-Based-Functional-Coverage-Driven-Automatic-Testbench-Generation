@@ -1,0 +1,8 @@
+Cover a completed transfer on the input side, where in_valid and in_ready are
+both high on the same clock edge, and likewise on the output side for out_valid
+and out_ready. Cover the stall cases, which matter more than the transfers:
+in_valid high while in_ready is low, and out_valid high while out_ready is low.
+Cover back-to-back transfers on consecutive cycles. Cover the buffer being empty
+and being full. Cover reset asserted while a transfer is in flight. Cross
+in_valid against out_ready to see every combination of upstream offering data
+and downstream accepting it.

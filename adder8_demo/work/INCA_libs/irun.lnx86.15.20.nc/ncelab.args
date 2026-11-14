@@ -1,0 +1,27 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-ACCESS
++rwc
+-timescale
+1ns/1ps
+-COVERAGE
+all
+-COVDUT
+adder8
+-COVDUT
+adder8_coverage
+-MESSAGES
+top_adder8
+-XLMODE
+./INCA_libs/irun.lnx86.15.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx86.15.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx86.15.20.nc/hdl.var
+-WORK
+worklib
+-IRUNHASTOP
+-HASXLMODE

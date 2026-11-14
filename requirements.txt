@@ -1,0 +1,15 @@
+# Matches the conda env already built on the EDA server (RHEL 7.9 / glibc 2.17,
+# Python 3.9 via Miniforge). Install torch separately first with the CPU wheel
+# index, then the rest:
+#
+#   pip install torch==2.2.2 --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+
+numpy==1.26.4
+requests==2.32.5
+scikit-learn==1.6.1
+transformers==4.36.0
+sentence-transformers==2.7.0
+pyyaml==6.0.2
+tqdm==4.67.1
+faiss-cpu==1.7.4

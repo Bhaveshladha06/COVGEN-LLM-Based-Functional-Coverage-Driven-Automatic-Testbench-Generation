@@ -1,0 +1,4 @@
+Cover 16-bit adder behavior across low, mid, and high value ranges for inputs a
+and b and the resulting sum, including zero, maximum, and overflow boundary
+conditions. Cover the carry-in and carry-out signals in both states, and cross
+the input ranges against the carry-out to confirm overflow is exercised.

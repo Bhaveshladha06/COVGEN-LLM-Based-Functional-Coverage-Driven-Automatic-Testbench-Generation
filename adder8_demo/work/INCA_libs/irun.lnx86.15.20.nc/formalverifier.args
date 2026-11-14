@@ -1,0 +1,13 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-COVERAGE
+all
+-COVOVERWRITE
+-COVTEST
+test
+-COVSCOPE
+scope
++TOP_INTERNAL+top_adder8
+-MESSAGES

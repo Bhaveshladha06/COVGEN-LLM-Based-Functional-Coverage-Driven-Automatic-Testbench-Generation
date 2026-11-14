@@ -1,0 +1,27 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-access
++rwc
+-sv
+-timescale
+1ns/1ps
+-coverage
+all
+-covoverwrite
+-covtest
+test
+-covscope
+scope
+-covdut
+adder8
+-covdut
+adder8_coverage
+../adder8.v
+../adder8_if.sv
+../adder8_coverage.sv
+../tb_adder8.sv
+../top_adder8.sv
+-top
+top_adder8

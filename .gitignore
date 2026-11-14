@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+runs/
+cov_work/
+*.log
+.DS_Store

@@ -1,0 +1,4 @@
+Cover the 4-bit counter reaching its maximum value (15) and wrapping around to 0
+on the next enabled clock edge. Cover the counter holding its value when en is
+deasserted, including holding at 0 and holding at 15. Cover an asynchronous
+reset asserted both while the counter is counting and while it is held.

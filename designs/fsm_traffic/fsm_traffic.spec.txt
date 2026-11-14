@@ -1,0 +1,6 @@
+Cover every state of the traffic light controller: red, green and yellow. Cover
+every legal transition between them: red to green, green to yellow, and yellow
+back to red. Cover the red state being held because the sensor is inactive even
+though the timer has expired, and cover it being held because the timer has not
+yet expired. Cover the sensor asserted and deasserted in each state. Confirm the
+three output lights are mutually exclusive: exactly one is on at any time.

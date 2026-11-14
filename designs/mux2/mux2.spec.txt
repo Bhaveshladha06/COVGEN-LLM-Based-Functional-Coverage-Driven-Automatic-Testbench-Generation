@@ -1,0 +1,2 @@
+Cover the 2-to-1 multiplexer for both select values and every combination of
+the two data inputs, and cross select against the input combinations.
